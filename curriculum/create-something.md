@@ -28,7 +28,7 @@ Quil로 멋진 애니메이션 만들기
 추가로 구글 검색을 한 후에 StackOverflow에서 [Load/display image in clojure with
 quil](http://stackoverflow.com/questions/18714941/load-display-image-in-clojure-with-quil)라는 질문을 발견했는데, 도움이 많이 되는 글이었습니다. 또한 클로저 브릿지의 [Quil and
 Processing
-Resources](https://github.com/ClojureBridge/drawing#quil-and-processing-resources) 부분도
+Resources](https://github.com/ClojureBridgeSeoul/drawing#quil-and-processing-resources) 부분도
 참고했습니다. 그곳에 나열되어 있는 웹사이트들을 훑어 보다가, 재미있는 크리스마스 트리 예제
 [xmas-tree.clj](https://github.com/quephird/fun-with-quil/blob/master/src/fun_with_quil/animations/xmas-tree.clj)를
 하나 발견했는데, 파일에서 읽어 온 크리스마스 트리를 창에 보여주는 예제였습니다. 이
@@ -37,7 +37,7 @@ Resources](https://github.com/ClojureBridge/drawing#quil-and-processing-resource
 이제 1 단계를 이루는데 필요한 정보는 충분히 수집한 셈입니다.
 
 그런데 그녀는 클로저 브릿지 워크샵에서 Quil 앱 튜토리얼인 [Quil을 이용해 첫 번째 프로그램
-만들기](https://github.com/ClojureBridge/drawing/blob/master/curriculum/first-program.md)
+만들기](https://github.com/ClojureBridgeSeoul/drawing/blob/master/curriculum/first-program.md)
 프로젝트를 본 적이 있었습니다. 그래서 이 `drawing` 프로젝트를 그대로 이용해 자신의
 애니메이션 앱을 만들겠다고 마음을 정합니다.
 
@@ -461,7 +461,7 @@ mode)](https://github.com/quil/quil/wiki/Functional-mode-(fun-mode)) 부분을 �
 
 ### 4 단계의 `practice.clj`
 
-이떄 `practice.clj`는 다음과 같습니다.
+이때 `practice.clj`는 다음과 같습니다.
 
 ```clojure
 (ns drawing.practice
