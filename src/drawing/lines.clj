@@ -21,7 +21,8 @@
   ; mouse with mouse-x and mouse-y
 
   ; Set the line color based on mouse position
-  (apply q/stroke  (mouse-color (q/mouse-x) (q/mouse-y))) 
+  (app
+   ly q/stroke  (mouse-color (q/mouse-x) (q/mouse-y))) 
 
   ; Draw a line from the origin to the position of the mouse
   (q/line 0 0 (q/mouse-x) (q/mouse-y))
